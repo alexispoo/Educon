@@ -1,0 +1,52 @@
+// page 1
+.page1{
+    background-image: url('../assets/banner.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size:stretch;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrappert{
+    margin-left: $titlemarginw;
+    margin-top: $titlemarginh;
+}
+
+%title-basics{
+    color: white;
+    line-height: 1;
+    max-width: 490pt;
+}
+    .admission{
+        @extend %title-basics;
+        font-weight: bold;
+        font-size:18pt;        
+    }
+    .header{
+        @extend %title-basics;
+        font-weight: bold;
+        font-size: 60pt;
+        margin-top:10pt;
+
+    }
+    .titledescription{
+        @extend %title-basics;
+        font-size: 18pt;
+        margin-top: 40pt;
+        font-weight: lighter;
+    }
+    .titlebuttondiv{        
+        max-width: 500pt;
+    }
+        .titlebutton{  
+            height: 40pt;  
+            width:200pt;
+            color:white;
+            padding:5pt;
+            margin-top: 40pt;        
+            background-color:$sweetred;
+            border-width: 0pt;
+            border-radius: 2pt;
+        }

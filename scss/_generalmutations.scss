@@ -1,0 +1,22 @@
+// General
+body{
+    font-family: $generalfont;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+h3 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .active {
+    border-bottom: 4px solid $sweetred;
+    left: 0;
+    right: 0;
+  }

@@ -1,0 +1,32 @@
+// Page 2
+.page2{
+    background-color:$almostwhite;
+    height: 100vh;
+    }
+    .wrapperslider{
+        margin-left: $titlemarginw;
+        margin-top: $titlemarginh/2;
+    }
+        .subtitlesholder{
+            border-style:solid;
+            border-width: 0pt 0pt 0pt 5pt;
+            border-color:$sweetred;
+        }
+        %subtitlebasic{
+            font-size:15pt;  
+            padding-left:10pt;                              
+            color:black; 
+        }
+            .subtitles{
+                @extend %subtitlebasic;
+                font-weight: bold;           
+            }
+        .description{
+            @extend %subtitlebasic;
+            font-weight: 200;
+            padding-left:15pt;
+        }
+         .dropdown-menu {
+            left: auto !important;
+            right: 0px;
+          }

@@ -1,0 +1,29 @@
+.linksdiv{
+    padding:100pt;
+    background-color:$links;
+    color:white;
+    font-size: 13pt;
+}
+    .footerheader{
+        margin-bottom:10pt;
+        font-weight: 500;
+    }
+    .footertext{
+        font-weight: 100;
+    }
+    .footerlink{
+        margin-top:15pt;
+    }
+.copyright{
+    font-weight: lighter;
+    border-top-width: 4pt;
+    border-top-color:black;
+    height:50pt;
+    color:white;
+    background-color:$copyright;
+}
+
+.stuff{
+    border-width: 5px;
+    border-color:black;
+}
